@@ -1,5 +1,5 @@
 # semantic-release-to-docker
-Simple example of using GitHub Workflows to run [semantic-release](https://github.com/semantic-release/semantic-release) and build a Docker image tagged as the new version.
+Simple example of using GitHub Workflows to run [semantic-release](https://github.com/semantic-release/semantic-release) and build a Docker image tagged as the new version. The resulting image is pushed to GitHub Container Registry.
 
 ## Actions
 The `release-and-build.yaml` workflow makes use of the following community actions:
